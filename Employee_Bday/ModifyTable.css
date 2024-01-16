@@ -1,0 +1,76 @@
+﻿<style>
+
+table.dTable {
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  border-collapse: separate !important;
+  border: 3px solid #AAAAAA;
+  background-color: #EEEEEE;
+  width: 100%;
+  text-align: left;
+ 
+ /* border-collapse: collapse; */  
+  border-radius: 16px 16px 16px 16px;
+
+
+}
+
+.dtd,  .dtr,.dth,.cdt, .dthdr {
+  border: 2px solid #AAAAAA;
+  padding: 8px 8px;
+}
+
+/* Header */
+.cdt  {
+  font-size: 30px;    
+  font-weight: bold;
+  color: #0072c6;
+  border: 0px !important;
+}	
+/* Font size in each td */	
+table.dTable tbody td {
+  font-size: 15px;
+  }
+ 
+table.dTable tr:nth-child(odd) {
+  background: #D0E4F5;
+}  
+
+
+ 
+.dthdr {
+  font-size: 22px;
+  font-weight: bold;
+  color: #FFFFFF;
+  background: #1C6EA4;
+}	
+  
+
+	
+	
+
+/* Header of the page Change *Font Etc */
+
+.ms-core-pageTitle, .ms-core-pageTitle a{
+
+text-align: center;
+font-family: 'Trebuchet MS', Helvetica, sans-serif;
+color: #0072c6;
+font-size: 60px;
+font-weight: bolder;
+
+}
+
+/*#monthBdays{
+	
+   width: 300px;
+   height: 750px;
+   overflow: scroll;
+*/	
+	
+	}
+
+ 
+</style> 
+
+
+

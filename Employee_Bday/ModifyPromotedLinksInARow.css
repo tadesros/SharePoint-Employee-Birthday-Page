@@ -1,0 +1,79 @@
+﻿<style>
+
+/* Hides paging element as it's not needed for vertical tiles  */  
+.ms-promlink-header
+{
+display:none;
+}
+/* Sets width of webpart area to set space needed for 2 promoted links (160px * 4) */
+#MSOZoneCell_WebPartWPQ3 .ms-promlink-root 
+{
+  width: 710px;
+  overflow: visible;
+}
+/* Sets width of tile area to force wrap after 2 promoted links  */
+#MSOZoneCell_WebPartWPQ3 .ms-promlink-body
+{
+  width: 710px;
+} 
+  
+/* Resize
+ 
+div.ms-promlink-body {
+height: 100px;
+}
+ 
+div.ms-tileview-tile-root {
+height: 110px !important;
+width: 110px !important;
+}
+ 
+div.ms-tileview-tile-content, div.ms-tileview-tile-detailsBox,  div.ms-tileview-tile-content > a > div > span {
+height: 100px !important;
+width: 100px !important;
+}
+ 
+div.ms-tileview-tile-content > a > div > img {
+max-width: 100%;
+width: 100% !important;
+}
+ 
+ul.ms-tileview-tile-detailsListMedium {
+height: 100px;
+padding: 0;
+}
+ 
+li.ms-tileview-tile-descriptionMedium {
+font-size: 11px;
+line-height: 16px;
+}
+ 
+div.ms-tileview-tile-titleTextMediumExpanded, div.ms-tileview-tile-titleTextLargeCollapsed, div.ms-tileview-tile-titleTextLargeExpanded {
+padding: 3px;
+}
+ 
+div.ms-tileview-tile-titleTextMediumCollapsed {
+background: none repeat scroll 0 0 #002E4F;
+font-size: 12px;
+line-height: 16px;
+min-height: 36px;
+min-width: 97px;
+padding-left: 3px;
+position: absolute;
+top: -36px;
+}
+ 
+li.ms-tileview-tile-descriptionMedium {
+font-size: 11px;
+line-height: 14px;
+padding: 3px;
+}
+ 
+.ms-promlink-header{
+display:none;
+}
+   */ 
+</style> 
+
+
+

@@ -1,0 +1,98 @@
+﻿<style>
+
+.myFontH {
+	font-weight: bold;
+	color: #d1e8e2;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.myFont {
+	color: #333333;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 18px;
+}
+
+/* Divider CSS*/
+
+/* All TDs in the table row */
+.ms-webpart-titleText.ms-webpart-titleText,
+.ms-webpart-titleText > a {
+	background: #123c69;
+	color: #ffffff;
+	padding-left: 2px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 25px;
+	border-radius: 8px 8px 0px 0px;
+}
+
+.ms-promlink-root {
+	text-align: center;
+	display: inline-block;
+}
+
+.ms-promlink-body {
+	width: 500px;
+	display: inline-block;
+	text-align: center;
+}
+
+/* Header of the page Change *Font Ehttps://3.bp.blogspot.com/-iil-IyISgsU/WPNli8a60OI/AAAAAAAAMfk/J1FcdyPLi-MxKLAeXNknkOBzJbjFhY3ZQCLcB/s1600/branded%2Blist%2Bview%2Bsharepoint%2B2017.pngtc */
+/*
+.ms-core-pageTitle {  
+text-align: center;
+/*background-color: #7E3B20;
+} 
+*/
+.ms-core-pageTitle,
+.ms-core-pageTitle a {
+	font-family: Helvetica;
+	/*font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;*/
+	color: #123c69;
+	font-size: 40px;
+}
+
+#MSOZoneCell_WebPartWPQ6 .ms-tileview-tile-detailsListMedium {
+	height: 100px;
+	padding: 0;
+}
+
+/* List View Header */
+.ms-listviewtable > thead > tr > th {
+	background-color: #5b9bd5;
+	font-size: 10pt;
+}
+
+/* List view Header Text color*/
+.ms-vh-div,
+.ms-headerSortTitleLink {
+	color: white !important;
+	font-weight: bold;
+}
+
+/* background color for alternate rows */
+.ms-listviewtable > tbody {
+	/* background color for alternate rows */
+	font-size: 9pt;
+}
+
+/* background color for alternate rows */
+.ms-listviewtable > tbody > tr.ms-alternating {
+	background: #ddebf7;
+}
+
+#SearchBox {
+	visibility: hidden;
+}
+
+/*.ms-itmhover is the TR row*/
+.ms-vb2 .ms-rtestate-field {
+	min-width: 200px;
+	max-width: 250px;
+	max-height: 50px;
+	overflow: hidden;
+}
+.ms-vb2 .ms-rtestate-field:hover {
+	max-height: none;
+}
+
+</style>

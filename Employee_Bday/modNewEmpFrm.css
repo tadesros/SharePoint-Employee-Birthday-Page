@@ -1,0 +1,88 @@
+﻿<style>
+
+/* Hide extra set of buttons */
+
+[name="ctl00$ctl41$g_9dd74150_039b_4b9e_af26_f80a64122534$savebutton1$ctl00$diidIOSaveItem"]
+{
+		
+	visibility: hidden;
+	
+}
+
+[name="ctl00$ctl41$g_9dd74150_039b_4b9e_af26_f80a64122534$gobackbutton1$ctl00$diidIOGoBack"]
+{
+		
+	visibility: hidden;
+	
+}
+
+/*Style Buttons*/
+/* Modify Built in Buttons */
+.aspNetDisabled
+{
+    cursor: pointer;
+    color: #FFFFFF !Important;
+    padding: 5px 15px !Important;
+    font-family: Arial !Important;
+    font-size: 17px !Important;
+    border-radius: 10px !Important;
+    border: solid 1px #837171 !Important;
+    background: linear-gradient(180deg, #a9a9a9 5%, #837171 88%) !Important;
+    box-shadow: inset 0px 10px 14px -7px #616174 !Important;
+
+}
+ .aspNetDisabled:hover {
+    background: linear-gradient(180deg, #837171 5%, #a9a9a9 88%) !Important;
+}
+ .aspNetDisabled:active {
+    position: relative !Important;
+    top: 1px !Important;
+}
+/*Modify build in buttons*/
+.ms-ButtonHeightWidth
+{
+
+    cursor: pointer;
+    color: #FFFFFF !Important;
+    padding: 5px 15px !Important;
+    font-family: Arial !Important;
+    font-size: 17px !Important;
+    border-radius: 10px !Important;
+    border: solid 1px #837171 !Important;
+    background: linear-gradient(180deg, #a9a9a9 5%, #837171 88%) !Important;
+    box-shadow: inset 0px 10px 14px -7px #616174 !Important;
+ 
+}
+.ms-ButtonHeightWidth:hover {
+    background: linear-gradient(180deg, #837171 5%, #a9a9a9 88%) !Important;
+}
+.ms-ButtonHeightWidth:active {
+    position: right !Important;
+    top: 1px !Important;
+}
+
+/* Style Font */
+.ms-formlabel .ms-standardheader
+{
+
+ font-size: 17px;
+ font-family: Arial !Important;
+ 
+}
+
+.ms-cui-tabBody,  .ms-cui-topBarMaximized
+{
+	
+	visibility:hidden;
+	
+}
+#DeltaSPRibbon
+{
+	
+	visibility:hidden;
+
+	
+}
+
+    
+</style>
